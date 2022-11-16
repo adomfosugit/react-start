@@ -1,27 +1,15 @@
 import './App.css';
-
+import Header from './components/Header'
+import Mainbody from './components/Mainbody';
+import Footer from './components/Footer'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            learn React
-          </a>
-        </p>
-      </header>
+      <Header />
+      <Mainbody />
+      <Footer />
+      
+      
     </div>
   );
 }
